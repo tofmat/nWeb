@@ -1,6 +1,9 @@
 .noFlexGrow{
   flex-grow: unset !important;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: Avenir Next;
 }
