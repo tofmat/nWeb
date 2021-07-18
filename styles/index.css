@@ -7,7 +7,10 @@
 .navigationMenu li{
   margin: 0 30px;
 }
-
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
 .navigationMenu .nav-item .nav-link{
   color: white !important;
   font-size: 14px;
@@ -18,7 +21,7 @@
   font-size: 14px;
   font-weight: 500;
 }
- .navbar-toggler-icon {
+.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .spiral2 {
@@ -44,6 +47,14 @@
   font-size: 14px;
   background: linear-gradient(50deg, rgba(138, 26, 128, 0.779) 20%, rgba(255, 41, 123, 0.95) 59.9%, rgba(255, 140, 123, 0.95) 100% );
 }
+.joinSign-Btn {
+  border: none;
+  padding: 0.5rem 2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 82px;
+  font-size: 14px;
+  background: linear-gradient(50deg, rgba(138, 26, 128, 0.779) 20%, rgba(255, 41, 123, 0.95) 59.9%, rgba(255, 140, 123, 0.95) 100% );
+}
 .firstText {
   background-color: #FF8C7B;
   background-image: linear-gradient(90deg, #EE8E84, #FF8C7B, #D966C5);
@@ -59,7 +70,7 @@
   padding: 0.5rem 2rem;
   color: white;
   border-radius: 82px;
-  font-size: 24px;
+  font-size: 20px;
   background: linear-gradient(90deg, rgba(255, 140, 123, 0.95) 28.13%, rgba(255, 41, 123, 0.95) 59.9%, rgba(138, 26, 128, 0.779) 100%);
 }
 .bigHero{
@@ -106,7 +117,7 @@ p {
   justify-content: center !important;
 }
 .flex {
-  display: flex;
+  display: flex !important;
 }
 .fullWidth {
   width: 100% !important;
@@ -267,7 +278,6 @@ p {
   display: none;
 }
 
-
 .faqs {
   padding: 50px 0 70px;
   border-radius: 150px 0 0 0;
@@ -332,7 +342,7 @@ details[open] > summary::after {
   position: absolute;
   content: "-";
   color: white;
-  padding: 1px 10px 3px;
+  padding: 1px 13px 3px;
   right: 20px;
   border-radius: 50%;
 }
@@ -395,8 +405,73 @@ details[open] summary ~ * {
 .socialsFooter img {
   margin-right: 15px;
 }
+.heroText p {
+  color: white;
+  font-size: 17px;
+}
+.form {
+  margin-bottom: 30px;
+}
+.form p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+.form input {
+  border-radius: 22px;
+  padding: 5px 10px;
+  width: 98%;
+  font-size: 16px;
+}
+.formGroup {
+  margin: 12px 0;
+}
+.joinFeatures {
+  margin: 20px 0;
+}
+.joinFeatures p{
+  color: white;
+  font-size: 17px;
+}
+.updates {
+  margin: 20px 0 40px;
+}
+.updates p {
+  color: white;
+  font-size: 17px;
+}
+input {
+  outline: none;
+}
+.formLine {
+  height: 2.5px !important;
+  border: none;
+  background: linear-gradient(90deg, rgba(255, 140, 123, 0.96) 1.04%, #FF4B90 50.52%, #CC2DBE 100%);
+}
 
-
+.waitList{
+  background-image: url(../assets/heroBack.png);
+  min-height: 94vh;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 40px;
+}
+.hesh1 {
+  font-size: 4rem !important;
+}
+.form-check-label {
+  font-size: 16px;
+  color: white;
+}
+.form-check-input {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  margin-right: 10px;
+}
+.form-check-input:checked {
+  border-color: #FF4B90 !important;
+  background-color: #FF4B90 !important;
+}
 /* Responsiveness */
 @media (max-width: 1200px) {
   .navigationMenu li {
@@ -462,12 +537,21 @@ details[open] summary ~ * {
   }
 }
 @media (max-width: 800px) {
+  .bigHero{
+    min-height: 60em;
+  }
   .section24-7 img {
     margin: 2rem 0;
   }
-  
+  .hesh1 {
+    font-size: 3rem !important;
+  }
   .sectionTransparent img{
     margin: 2rem 0;
+  }
+  .waitList {
+    align-items: unset;
+    padding: 50px 0;
   }
   .section24-7 h1 {
     font-size: 3.5rem !important;
