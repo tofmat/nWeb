@@ -380,7 +380,7 @@ details[open] summary ~ * {
 }
 .accessBack h2 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   margin-bottom: 1rem;
 }
@@ -483,6 +483,8 @@ input {
     display: none;
   }
   .accessBack {
+    padding: 5rem 0;
+    background-size: cover !important;
     background: linear-gradient(rgba(217, 102, 197, 0.7), rgba(238, 142, 132, 0.7)), url(../assets/accessBack.png);
   }
   .signBtnD {
@@ -538,7 +540,16 @@ input {
 }
 @media (max-width: 800px) {
   .bigHero{
-    min-height: 60em;
+    min-height: 50em;
+  }
+  .onboardHeading {
+    padding: 2rem 0;
+  }
+  .onboardCard h2 {
+    font-size: 3rem;
+  }
+  .accessBack {
+    text-align: right;
   }
   .section24-7 img {
     margin: 2rem 0;
@@ -554,8 +565,15 @@ input {
     padding: 50px 0;
   }
   .section24-7 h1 {
-    font-size: 3.5rem !important;
+    font-size: 2.8rem !important;
   }
+  .section24-7 h2 {
+    font-size: 2.2rem !important;
+  }
+  .sectionTransparent h2 {
+    font-size: 2.2rem !important;
+  }
+
   .findGrant {
     background-size: center !important;
   }
@@ -566,12 +584,21 @@ input {
     font-size: 33px;
   }
   .faqs h2 {
-    font-size: 33px;
+    font-size: 29px;
   }
   .comingSoonField h2 {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
+  }
+  summary {
+    font-size: 1.5rem !important;
+  }
+  .comingSoonField {
+    padding: 20px;
   }
   .heroText h1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
+  }
+  .findGrant {
+    padding: 5rem 0;
   }
 }
