@@ -93,14 +93,14 @@ h2 {
   font-weight: 600;
 }
 p {
-  font-weight: 300;
+  font-weight: 400;
 }
 .justifyAround {
   justify-content: space-around;
 }
 .heroText p{
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 3rem;
 }
 .heroText h1 {
@@ -155,7 +155,7 @@ p {
 }
 .onboardCard p {
   color: rgba(5, 16, 69, 1);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
 }
 .section24-7 {
@@ -180,7 +180,7 @@ p {
 .section24-7 p {
   color: #fff;
   font-size: 19px;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 .sectionTransparent {
   padding: 60px 0;
@@ -210,7 +210,7 @@ p {
 .sectionTransparent p {
   color: #fff;
   font-size: 19px;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 .textCenter{
   text-align: center;
@@ -375,7 +375,7 @@ details[open] summary ~ * {
 .findGrant p {
   color: #fff;
   font-size: 19px;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   margin-bottom: 2rem;
 }
 .accessBack h2 {
@@ -387,7 +387,7 @@ details[open] summary ~ * {
 .accessBack p {
   color: #fff;
   font-size: 19px;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   margin-bottom: 2rem;
 }
 .footer {
@@ -540,7 +540,7 @@ input {
 }
 @media (max-width: 800px) {
   .bigHero{
-    min-height: 50em;
+    min-height: 40em !important;
   }
   .onboardHeading {
     padding: 2rem 0;
@@ -565,13 +565,13 @@ input {
     padding: 50px 0;
   }
   .section24-7 h1 {
-    font-size: 2.8rem !important;
+    font-size: 2.4rem !important;
   }
   .section24-7 h2 {
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
   }
   .sectionTransparent h2 {
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
   }
 
   .findGrant {
@@ -584,13 +584,17 @@ input {
     font-size: 33px;
   }
   .faqs h2 {
-    font-size: 29px;
+    font-size: 24px;
+    margin-bottom: 2rem;
   }
   .comingSoonField h2 {
-    font-size: 3rem !important;
+    font-size: 2.6rem !important;
+  }
+  .comingItems h3 {
+    font-size: 26px;
   }
   summary {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
   .comingSoonField {
     padding: 20px;
